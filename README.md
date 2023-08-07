@@ -1,19 +1,17 @@
 # ReadMe-Generator
 
 
-
-
 ## Description
 
 # User Story
-
+```md
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
-
+```
 # Acceptance Criteria
 
-
+```md
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -29,8 +27,16 @@ WHEN I enter my email address
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
+```
 
 ## Usage
 
+When a user inputs node index.js in the develop folder of the project then inquirer will prompt the user to input all of the necessary information to create a professional ReadMe. This will then create a a new ReadMe file with the data underneath of the index.js file. 
+
 ## Credits
+
+https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+https://choosealicense.com/community/
+https://www.knowledgehut.com/blog/web-development/node-js-write-file
+
 

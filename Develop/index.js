@@ -35,7 +35,8 @@ const questions =
     {
         name: "License",
         message: "What license is this project using?",
-        type: "input"
+        type: "list",
+        choices: ["MIT", "Apache", "GNU", "None"]
     },
     {
         name: "Features",
@@ -50,6 +51,16 @@ const questions =
     {
         name: "Tests",
         message: "What tests have been run and how do users run them?",
+        type: "input"
+    },
+    {
+        name: "Year",
+        message: "What year is it?",
+        type: "input"
+    },
+    {
+        name: "Author",
+        message: "Who is the Author of this project",
         type: "input"
     }
 ];
